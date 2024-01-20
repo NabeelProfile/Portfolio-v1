@@ -39,9 +39,9 @@ const HeroBanner = () => {
           transition={{ duration: 0.7, delay: 0.25 }}
         >
           <div className="flex items-center gap-[6px]">
-            <div className="flex justify-center items-center">
+            {/* <div className="flex justify-center items-center">
               <img src={logo2} alt="logo" className="w-[100px] p-0 m-0 "  />
-            </div>
+            </div> */}
             {/* <div className="flex justify-center items-center flex-col m-0 p-0 gap-0">
               <h1 className="text-2xl">Bro Code</h1>{" "}
               <p className="text-xs mt-0">Shivnandan</p>{" "}
