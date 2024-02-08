@@ -14,7 +14,7 @@ const HeroBanner = () => {
   return (
     <div
       id="hero"
-      className="w-full sm:h-[100vh] md:h-[120vh] lg:h-[130vh] 2xl:h-[130vh] relative bg-[#111111] overflow-hidden"
+      className="w-full h-[90vh] sm:h-[100vh] md:h-[120vh] lg:h-[130vh] 2xl:h-[130vh] relative bg-[#111111] overflow-hidden"
     >
       {/* BACKGROUND ELEMENTS FOR DESKTOP START */}
       <motion.span
