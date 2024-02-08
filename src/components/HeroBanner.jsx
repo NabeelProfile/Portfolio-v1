@@ -14,7 +14,7 @@ const HeroBanner = () => {
   return (
     <div
       id="hero"
-      className="w-full h-[90vh] sm:h-[100vh] md:h-[120vh] lg:h-[130vh] 2xl:h-[130vh] relative bg-[#111111] overflow-hidden"
+      className="w-full h-[100vh] sm:h-[100vh] md:h-[120vh] lg:h-[130vh] 2xl:h-[130vh] relative bg-[#111111] overflow-hidden"
     >
       {/* BACKGROUND ELEMENTS FOR DESKTOP START */}
       <motion.span
@@ -84,7 +84,7 @@ const HeroBanner = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         > 
-          <h1 className="text-[40px] md:text-[90px] 2xl:text-[120px] leading-[60px] md:leading-[100px]  2xl:leading-[150px] font-oswald uppercase">
+          <h1 className="text-[35px] md:text-[70px] 2xl:text-[120px] leading-[60px] md:leading-[100px]  2xl:leading-[150px] font-oswald uppercase">
             I am a proffesional
             <br className="invisible md:visible" />
             Full Stack Developer
@@ -102,7 +102,7 @@ const HeroBanner = () => {
           <div className = "font-light mb-3"  >
            Hi, I Am <span className= "font-semibold">Nabeel Aymoonhi</span>
           </div>
-          <div className="max-w-[810px]"  >
+          <div className="text-sm max-w-[810px]"  >
           As a <b>Full Stack Developer</b> and Programmer, I specialize in crafting user-centric web applications
           that embody your brand's essence. With a focus on functionality and aesthetics, I aim to deliver
           compelling online experiences tailored to your audience. Let's collaborate to elevate your 
