@@ -79,12 +79,12 @@ const HeroBanner = () => {
 
         {/* BIG HEADING START */}
         <motion.div
-          className="flex justify-center text-center mt-10 mb-10 relative"
+          className="flex justify-center text-center mt-16 mb-10 relative"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         > 
-          <h1 className="text-[40px] md:text-[120px] 2xl:text-[120px] leading-[60px] md:leading-[145px]  2xl:leading-[150px] font-oswald uppercase">
+          <h1 className="text-[40px] md:text-[90px] 2xl:text-[120px] leading-[60px] md:leading-[100px]  2xl:leading-[150px] font-oswald uppercase">
             I am a proffesional
             <br className="invisible md:visible" />
             Full Stack Developer
@@ -94,7 +94,7 @@ const HeroBanner = () => {
 
         {/* INTRO START */}
         <motion.div
-          className="flex flex-col mb-10 text-center md:text-left text-[16px] md:text-[18px] leading-[24px] md:leading-[28px] relative"
+          className="flex flex-col mb-10 text-center md:text-left text-[20px] md:text-[18px] leading-[24px] md:leading-[28px] md:pt-[28px] relative"
           initial={{ y: 300, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.25 }}
