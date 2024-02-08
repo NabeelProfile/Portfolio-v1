@@ -14,7 +14,7 @@ const HeroBanner = () => {
   return (
     <div
       id="hero"
-      className="w-full h-[130vh] relative bg-[#111111] overflow-hidden"
+      className="w-full sm:h-[100vh] md:h-[120vh] lg:h-[130vh] 2xl:h-[130vh] relative bg-[#111111] overflow-hidden"
     >
       {/* BACKGROUND ELEMENTS FOR DESKTOP START */}
       <motion.span
@@ -47,7 +47,7 @@ const HeroBanner = () => {
               <p className="text-xs mt-0">Shivnandan</p>{" "}
             </div> */}
           </div>
-          <ul className="flex  2xl:text-[20px]">
+          <ul className="flex 2xl:text-[20px]">
             <li
               className = "cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
               onClick   = {() => scrollTo("about")}
@@ -103,12 +103,10 @@ const HeroBanner = () => {
            Hi, I Am <span className= "font-semibold">Nabeel Aymoonhi</span>
           </div>
           <div className="max-w-[810px]"  >
-            I'm a <b>front-end developer</b> and Programmer. Passionate about building
-            user-loving accessible web apps. My jobs is to build your website
-            functional, user-friendly and attractive. moreover i add personal
-            touches to your product and make sure that is eye-catching and easy
-            to use. My aim is to bring across your message and identity in the
-            most creative way
+          As a <b>Full Stack Developer</b> and Programmer, I specialize in crafting user-centric web applications
+          that embody your brand's essence. With a focus on functionality and aesthetics, I aim to deliver
+          compelling online experiences tailored to your audience. Let's collaborate to elevate your 
+          digital presence with precision and professionalism.
           </div>
         </motion.div>
         {/* INTRO END */}
