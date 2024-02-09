@@ -131,7 +131,7 @@ const Form = () => {
                 {/* MESSAGE - FORM FIELD END */}
 
                 {/* SUBMIT BUTTON */}
-                <button className="bg-[#111111] ml-96 h-[64px] rounded-lg max-w-[385px] text-[20px] transition-transform active:scale-[0.95] ">
+                <button className="bg-[#111111] w-[20%] h-[45px] 2xl:h-[64px] rounded-lg max-w-[385px] text-[20px] transition-transform active:scale-[0.95] ">
                     Send
                 </button>
                 {/* SUBMIT BUTTON */}
