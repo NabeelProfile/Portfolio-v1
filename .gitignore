@@ -1,6 +1,6 @@
 # node_modules file
 node_modules
 # Ignore the dist directory
-/dist
+
 # Components folder
 src/components/
